@@ -1,0 +1,31 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.token
+*.key
+*.pem
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Local benchmark raw logs (optional keep templates)
+*.log
+
+# Ignore embedded cloned vertex-ai-samples inside subdirectories
+hex-llm/vertex-ai-samples/
+*/vertex-ai-samples/

@@ -1,0 +1,18 @@
+# Core Google Cloud and Vertex AI SDK
+google-cloud-aiplatform>=1.60.0
+google-cloud-storage>=2.14.0
+
+# Inference & Benchmarking Clients
+openai>=1.30.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Data Analysis & Reporting
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+tabulate>=0.9.0
+tqdm>=4.66.0
+
+# Validation & Serialization
+pydantic>=2.0.0
